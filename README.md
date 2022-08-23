@@ -101,17 +101,17 @@ everyone.
 
 2. Clone your forked repo to your local machine:
 ```
-git clone https://github.com/MiHarsh/Tally-Quizzer.git (https)
+git clone https://github.com/HIMANSHU-K-SINGH/Quizzer.git (https)
 ```
 or
 ```
-git clone git@github.com:MiHarsh/Tally-Quizzer.git (ssh)
+git clone git@github.com:HIMANSHU-K-SINGH/Quizzer.git (ssh)
 ```
 This will make a copy of the code to your local machine.
 
-3. Change directory to `Tally-Quizzer`.
+3. Change directory to `Quizzer`.
 ```
-cd Tally-Quizzer
+cd Quizzer
 ```
 
 4. Check the remote of your local repo by:
@@ -120,35 +120,35 @@ git remote -v
 ```
 It should output the following:
 ```
-origin	https://github.com/<username>/Tally-Quizzer.git (fetch)
-origin	https://github.com/<username>/Tally-Quizzer.git (push)
+origin	https://github.com/<username>/Quizzer.git (fetch)
+origin	https://github.com/<username>/Quizzer.git (push)
 ```
 or
 ```
-origin	git@github.com:<username>/Tally-Quizzer.git (fetch)
-origin	git@github.com:<username>/Tally-Quizzer.git (push)
+origin	git@github.com:<username>/Quizzer.git (fetch)
+origin	git@github.com:<username>/Quizzer.git (push)
 ```
 Add upstream to remote:
 ```
-git remote add upstream https://github.com/MiHarsh/Tally-Quizzer.git (https)
+git remote add upstream https://github.com/HIMANSHU-K-SINGH/Quizzer.git (https)
 ```
 or
 ```
-git remote add upstream git@github.com:MiHarsh/Tally-Quizzer.git (ssh)
+git remote add upstream git@github.com:HIMANSHU-K-SINGH/Quizzer.git (ssh)
 ```
 Running `git remote -v` should then print the following:
 ```
-origin	https://github.com/<username>/Tally-Quizzer.git (fetch)
-origin	https://github.com/<username>/Tally-Quizzer.git (push)
-upstream	https://github.com/MiHarsh/Tally-Quizzer.git (fetch)
-upstream	https://github.com/MiHarsh/Tally-Quizzer.git (push)
+origin	https://github.com/<username>/Quizzer.git (fetch)
+origin	https://github.com/<username>/Quizzer.git (push)
+upstream	https://github.com/HIMANSHU-K-SINGH/Quizzer.git (fetch)
+upstream	https://github.com/HIMANSHU-K-SINGH/Quizzer.git (push)
 ```
 or
 ```
-origin	git@github.com:<username>/Tally-Quizzer.git (fetch)
-origin	git@github.com:<username>/Tally-Quizzer.git (push)
-upstream	git@github.com:MiHarsh/Tally-Quizzer.git (fetch)
-upstream	git@github.com:MiHarsh/Tally-Quizzer.git (push)
+origin	git@github.com:<username>/Quizzer.git (fetch)
+origin	git@github.com:<username>/Quizzer.git (push)
+upstream	git@github.com:HIMANSHU-K-SINGH/Quizzer.git (fetch)
+upstream	git@github.com:HIMANSHU-K-SINGH/Quizzer.git (push)
 ```
 ## 
 
@@ -161,7 +161,7 @@ upstream	git@github.com:MiHarsh/Tally-Quizzer.git (push)
 
 #### Steps
 
-1. Make sure you are inside the root of the project (i.e., `./Tally-Quizzer/` folder).
+1. Make sure you are inside the root of the project (i.e., `./Quizzer/` folder).
 2. Setup environment variables in `.env` files of all folders according to `.env.sample` files.
 3. Run `docker-compose up` to spin up the containers.
 4. The website would then be available locally at `http://localhost:3000/`.
@@ -176,7 +176,7 @@ upstream	git@github.com:MiHarsh/Tally-Quizzer.git (push)
 
 #### Steps
 
-1. Make sure you are inside the root of the project (i.e., `./Tally-Quizzer/` folder).
+1. Make sure you are inside the root of the project (i.e., `./Quizzer/` folder).
 2. Setup environment variables in `.env` files of all folders according to `.env.sample` files.
 3. Run `npm run start-with-install` to install all the dependencies and run frontend and backend concurrently.
 4. The website would then be available locally at `http://localhost:3000/`.
@@ -207,14 +207,16 @@ Run `cd backend` to go inside the Node.js server folder for Linux.
 
 |||
 |:-------------------------:|:-------------------------:|
-|<img width="1604" alt="login" src="https://raw.githubusercontent.com/MiHarsh/Tally-Quizzer/main/images/login.png">  Login Page |  <img width="1604" alt="register" src="https://raw.githubusercontent.com/MiHarsh/Tally-Quizzer/main/images/register.png"> Register |
-|<img width="1604" alt="Homepage" src="https://raw.githubusercontent.com/MiHarsh/Tally-Quizzer/main/images/home.png"> Homepage|<img width="1604" alt="dashboard" src="https://raw.githubusercontent.com/MiHarsh/Tally-Quizzer/main/images/dashboard.png"> Dashboard |
- <img width="1604" alt="create new quiz" src="https://raw.githubusercontent.com/MiHarsh/Tally-Quizzer/main/images/create-quiz.png">Create/Edit a Quiz|<img width="1604" alt="view-quiz-History" src="https://raw.githubusercontent.com/MiHarsh/Tally-Quizzer/main/images/quiz-history.png"> View Quiz History|
-|<img width="1604" alt="View-participants" src="https://raw.githubusercontent.com/MiHarsh/Tally-Quizzer/main/images/view-participants.png"> Add/View Participants |  <img width="1604" alt="view statistics" src="https://raw.githubusercontent.com/MiHarsh/Tally-Quizzer/main/images/view-stats.png"> Statistics Page|
-<img width="1604" alt="view-score-card" src="https://raw.githubusercontent.com/MiHarsh/Tally-Quizzer/main/images/score-card.png"> View Score Card| <img width="1604" alt="mail test link" src="https://raw.githubusercontent.com/MiHarsh/Tally-Quizzer/main/images/quizmail.png"> Mail Test Link|
-<img width="1604" alt="view-instructions-page" src="https://raw.githubusercontent.com/MiHarsh/Tally-Quizzer/main/images/instructions-page.png"> Instructions Page| <img width="1604" alt="instant score release" src="https://raw.githubusercontent.com/MiHarsh/Tally-Quizzer/main/images/instant-score-release.png"> Instant Score Release|
-<img width="1604" alt="quizzing-window" src="https://raw.githubusercontent.com/MiHarsh/Tally-Quizzer/main/images/quizzing-window.png"> Quizzing Window| 
+|<img width="1604" alt="login" src="https://raw.githubusercontent.com/HIMANSHU-K-SINGH/Quizzer/main/images/login.png">  Login Page |  <img width="1604" alt="register" src="https://raw.githubusercontent.com/HIMANSHU-K-SINGH/Quizzer/main/images/register.png"> Register |
+|<img width="1604" alt="Homepage" src="https://raw.githubusercontent.com/HIMANSHU-K-SINGH/Quizzer/main/images/home.png"> Homepage|<img width="1604" alt="dashboard" src="https://raw.githubusercontent.com/HIMANSHU-K-SINGH/Quizzer/main/images/dashboard.png"> Dashboard |
+ <img width="1604" alt="create new quiz" src="https://raw.githubusercontent.com/HIMANSHU-K-SINGH/Quizzer/main/images/create-quiz.png">Create/Edit a Quiz|<img width="1604" alt="view-quiz-History" src="https://raw.githubusercontent.com/HIMANSHU-K-SINGH/Quizzer/main/images/quiz-history.png"> View Quiz History|
+|<img width="1604" alt="View-participants" src="https://raw.githubusercontent.com/HIMANSHU-K-SINGH/Quizzer/main/images/view-participants.png"> Add/View Participants |  <img width="1604" alt="view statistics" src="https://raw.githubusercontent.com/HIMANSHU-K-SINGH/Quizzer/main/images/view-stats.png"> Statistics Page|
+<img width="1604" alt="view-score-card" src="https://raw.githubusercontent.com/HIMANSHU-K-SINGH/Quizzer/main/images/score-card.png"> View Score Card| <img width="1604" alt="mail test link" src="https://raw.githubusercontent.com/HIMANSHU-K-SINGH/Quizzer/main/images/quizmail.png"> Mail Test Link|
+<img width="1604" alt="view-instructions-page" src="https://raw.githubusercontent.com/HIMANSHU-K-SINGH/Quizzer/main/images/instructions-page.png"> Instructions Page| <img width="1604" alt="instant score release" src="https://raw.githubusercontent.com/HIMANSHU-K-SINGH/Quizzer/main/images/instant-score-release.png"> Instant Score Release|
+<img width="1604" alt="quizzing-window" src="https://raw.githubusercontent.com/HIMANSHU-K-SINGH/Quizzer/main/images/quizzing-window.png"> Quizzing Window| 
 
 # Database Schema
 
-<img height="500px" alt="db-schema" src="https://raw.githubusercontent.com/MiHarsh/Tally-Quizzer/main/images/schema.png">
+<img height="500px" alt="db-schema" src="https://raw.githubusercontent.com/HIMANSHU-K-SINGH/Quizzer/main/images/schema.png">
+
+
